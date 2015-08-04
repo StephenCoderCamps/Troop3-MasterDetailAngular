@@ -1,5 +1,5 @@
 ﻿(function () {
-    angular.module('ProductsApp', ['ngRoute']).config(function ($routeProvider, $locationProvider) {
+    angular.module('ProductsApp', ['ngRoute', 'ui.bootstrap']).config(function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: '/ngViews/productsList.html',
